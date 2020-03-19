@@ -1,0 +1,1 @@
+define("@searchfe/assert/index",["require"],function(){function e(e,r){if(!e)throw new Error(r)}function r(r,n,t){return e(r==n,t)}var n=e;return n.ok=e,n.equal=r,n}),define("@searchfe/assert",["@searchfe/assert/index"],function(e){return e});
